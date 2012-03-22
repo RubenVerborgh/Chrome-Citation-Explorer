@@ -1,0 +1,15 @@
+{
+  "name": "Citation Explorer",
+  "version": "0.1",
+  "description": "Makes it easier to export citations.",
+  "permissions": [
+    "http://www.springerlink.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.springerlink.com/*"],
+      "js": ["deps/jquery.js", "lib/springerlink.js"]
+    }
+  ],
+  "homepage_url": "https://github.com/RubenVerborgh/Chrome-Citation-Explorer"
+}
